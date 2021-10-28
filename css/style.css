@@ -506,8 +506,8 @@ section {
 }
 
 .img-cropper {
-	width: 100px;
-	height: 100px;
+	width: 10rem;
+	height: 10rem;
 	margin: auto;
 	position: relative;
 	overflow: hidden;
