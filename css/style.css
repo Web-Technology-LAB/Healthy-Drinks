@@ -27,6 +27,15 @@ a span {
 	align-items: center;
 }
 
+span a {
+	text-decoration: none;
+	color: #7ed957;
+}
+
+span a:hover {
+	color: #ed9121;
+}
+
 span img {
 	padding-right: 1.5rem;
 }
