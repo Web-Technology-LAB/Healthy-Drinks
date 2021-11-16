@@ -33,9 +33,50 @@
         <div class="product-rows">
         </div>
         <div class="total">
-          <h1 class="cart-total">TOTAL</h1>
-            <span class="total-price">$0</span>
-              <button class="purchase-btn">PURCHASE</button>
+			
+			<div class="cart-form">
+			<form action="https://formspree.io/f/mknpzbjz" method="POST">
+				
+					<h1 style="padding: 2em 0em 1em 0em; font-size: 3em;">Order Details</h1>
+				<div class="inputBox" style="font-size: xx-large; color: white;">
+					<span class="fas fa-user"></span>
+					<input type="text" name="Name" placeholder="Enter your Name" style="line-height: 1.5em;"/>
+				</div>
+				<div class="inputBox" style="font-size: xx-large; color: white;">
+					<span class="fas fa-envelope"></span>
+					<input
+						type="email"
+						name="Email ID"
+						placeholder="Enter your Email ID"
+						style="line-height: 1.5em;"
+					/>
+				</div>
+				<div class="inputBox" style="font-size: xx-large; color: white;">
+					<span class="fas fa-phone" style="padding-top: 0em;"></span>
+					<input
+						type="number"
+						name="Phone Number"
+						placeholder="Enter your Mobile Number"
+						style="line-height: 1.5em;"
+					/>
+				</div>
+				<div class="inputBox" style="font-size: xx-large; color: white;">
+					<span class="fas fa-home"></span>
+					<input
+						type="text"
+						name="Address"
+						placeholder="Enter your Address"
+						style="line-height: 1.5em;"
+					/>
+				</div>
+				
+				<h1 class="cart-total" >TOTAL</h1>
+            	<span class="total-price">$0</span>
+				<input type="submit" value="PURCHASE" class="purchase-btn" />
+			</form>
+		</div>
+				<!-- <button class="purchase-btn">PURCHASE</button> -->
+              
         </div>
       </div>
     </div>
@@ -58,6 +99,7 @@
 			<div class="icons">
 				<div class="fas fa-search" id="search-btn"></div>
 				<div class="fas fa-shopping-cart" id="cart"></div>
+				<span class ="cart-quantity">0</span>
 				<div class="fas fa-bars" id="menu-btn"></div>
 			</div>
 
@@ -79,7 +121,7 @@
 					<div class="img-cropper">
 						<img src="../images/p1.jpg" alt="" class="img-circle" />
 					</div>
-					<h3>Green Tea<br />(200gm)</h3>
+					<h3 class="product-name">Green Tea<br />(200gm)</h3>
 					<div class="price">₹ 429.99</div>
 					<a  class="btn">Add to Cart</a>
 				</div>

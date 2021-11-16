@@ -701,9 +701,9 @@ section {
   
   #cart {
     position: relative;
-    font-size: 2rem;
+    font-size: 2.5rem;
     cursor: pointer;
-    margin: 1em 4em 0 0;
+    margin: 0em 0em 0.5 0;
   }
   
   .cart-quantity {
@@ -770,8 +770,25 @@ section {
     z-index: 2;
     transform: translateX(-200%);
     transition: .5s ease-out;
-    
+    padding-top: 9rem;
   }
+  
+  .cart-quantity {
+	color: white;
+	background-color: red;
+	padding: .2em .3em;
+	position: absolute;
+	margin: -1em 10em 0 0;
+	right: 0;
+	border: solid 2px red;
+	border-radius: 15px;
+	font-weight: bolder;
+  }
+
+  .cart-form{
+	  background-color: #7ed957;
+	/* font-size: large; */
+}
   
   .cart-modal {
     height: 100vh;
@@ -806,17 +823,19 @@ section {
   }
   
   .cart-total {
-    color: white;
+	  padding-top: 2em;
+    color: rgb(0, 0, 0);
+	font-size: 3rem;
   }
   
   .total-price {
-    color: white;
-    font-size: 2rem;
+    color: rgb(255, 7, 7);
+    font-size: 3rem;
     display: block;
   }
   
   .purchase-btn {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bolder;
     background-color: green;
     color: white;
@@ -826,6 +845,7 @@ section {
     border: none;
     cursor: pointer;
     margin: 2em 0 1em 0;
+	margin-bottom: 20em;
   }
   
   .product-rows {
